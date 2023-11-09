@@ -1,0 +1,83 @@
+*{
+    margin: 0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+html,body{
+    font-family: 'Lato', sans-serif;
+}
+a{
+    text-decoration: none;
+    color:rgb(255, 255, 255);
+
+}
+.header{
+    background: #333;
+    overflow: auto;
+    line-height: 1.7em ;
+}
+.header nav h1 {
+    float: left;
+    padding: 20;
+}
+.header ul {
+    float: right;
+    list-style: none;
+}
+.header ul li {
+    float: left;
+}
+.header ul li a {
+    padding:20px;
+    display :block;
+}
+.header ul li a:hover{
+    background:#555;
+}
+#active{
+    background:#555;
+}
+.section {
+    background:url(blur-coffee-shop.jpg) center center ;
+    height: 550pX;
+    background-size: cover;
+    text-align: center;
+
+}
+.contenu{
+    padding-top: 130px;
+    display: block;
+    max-width: 500PX;
+    margin:auto;
+}
+.contenu h1 {
+    font-weight: 900;
+    padding-bottom: 40;
+    font-size:40px;
+
+}
+.contenu p{
+    font-weight: 350 ;
+    margin-bottom: 100px;
+
+}
+.contenu a{
+    background-color: #333;
+    color:rgb(255, 255, 255);   
+    display: inline-block;
+    padding:15px;
+    border-radius: 30px;
+}
+.contenu a:hover{
+    background-color: #fff;
+    color:#333;
+    border:1px;
+
+}
+
+
+
+
+
+
+
